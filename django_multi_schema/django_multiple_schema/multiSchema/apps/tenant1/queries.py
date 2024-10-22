@@ -1,0 +1,2 @@
+usergoes = ""
+fixedPromos = ""

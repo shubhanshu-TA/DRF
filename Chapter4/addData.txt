@@ -1,0 +1,16 @@
+// shell scipt to add dummy data
+// manage.py shell
+
+from movie.models import Movie
+
+Movie.objects.all()
+
+movie = Movie(name = 'hello')
+movie.save()
+
+
+movie = Movie(name = 'reviewer')
+movie.save()
+
+Movie.objects.all().values()
+
